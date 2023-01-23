@@ -5,7 +5,8 @@ import WorkMethod from "./components/WorkMethod";
 import Logo from "./components/Logo";
 import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
-import Content from "./components/Content";
+import "./fonts/Louis-George-Cafe-Light.ttf";
+import "./fonts/Louis-George-Cafe.ttf";
 
 function App() {
   return (
@@ -15,8 +16,6 @@ function App() {
         <Navigation />
         <hr />
         <Home />
-        <hr />
-        <Content />
         <hr />
         <WorkMethod />
         <hr />

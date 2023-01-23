@@ -1,3 +1,10 @@
+@font-face {
+  font-family:'Louis';
+  src: local('Louis-George-Café'), url(./fonts/Louis-George-Cafe.ttf) format('truetype');
+  
+  font-family:'Louis-Light';
+  src: local('Louis-George-Café-Light'), url(./fonts/Louis-George-Cafe-Light.ttf) format('truetype');
+}
 
 body {
   padding: 0;

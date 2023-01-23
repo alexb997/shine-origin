@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
   border-width: 5px;
@@ -8,21 +10,35 @@
   background-color: #E7C06C;
   /* background-color: #fdf1b8; */
   border-color: #B9913B;
+  font-family: 'Louis-Light' !important;
 }
 
 .logo{
   width: 90%;
   height: auto;
 }
+
+.card-home{
+  background-color: #B9913B !important;
+  min-height: 100%;
+}
+
 .navbar-links-zone{
   justify-content: space-between;
   width: 100%;
 }
+
 .link-button{
   text-decoration:none;
   cursor: pointer;
   color: #F9F3E6;
+  font-family: 'Louis-Light' !important;
+  padding-top:3%;
 }
+.link-button:hover{
+  color: #B9913B
+}
+
 .navbar-icons-zone{
   justify-content: space-around;
 }
@@ -58,6 +74,7 @@
 .a-white{
   color: #F9F3E6;
   text-decoration-color: none;
+  font-family: 'Louis-Light' !important;
 }
 
 .App-link {
@@ -67,6 +84,7 @@
 h3{
   padding-top:3%;
   padding-bottom: 3%;
+  font-family: 'Louis' !important;
 }
 
 hr{
