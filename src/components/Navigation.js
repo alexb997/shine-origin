@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Col, Navbar, Nav, Row, NavbarBrand } from "react-bootstrap";
+import { Container, Col, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 import { FaPhoneAlt } from "react-icons/fa";

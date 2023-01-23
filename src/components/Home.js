@@ -1,12 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
-import {
-  FaPhoneSquareAlt,
-  FaCar,
-  FaHandsWash,
-  FaClock,
-  FaCarAlt,
-} from "react-icons/fa";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
   return (
