@@ -60,6 +60,9 @@
   .navbar-icons-zone{
     justify-content: space-around;
   }
+  .google-map-column{
+    padding-bottom: 10%;
+  }
 }
 
 .a-white{

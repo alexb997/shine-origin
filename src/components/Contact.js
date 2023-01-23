@@ -38,7 +38,7 @@ const Contact = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg="6" md="12">
+        <Col lg="6" md="12" className="google-map-column">
           <div className="google-map-wrapper">
             <iframe
               title="address-google-map"
