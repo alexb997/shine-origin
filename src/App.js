@@ -12,14 +12,13 @@ function App() {
     <Container className="App">
       <Col>
         <Logo />
-        <hr />
         <Navigation />
         <hr />
         <Home />
         <hr />
-        <WorkMethod />
-        <hr />
         <Content />
+        <hr />
+        <WorkMethod />
         <hr />
         <Contact />
       </Col>

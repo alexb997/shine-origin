@@ -1,33 +1,13 @@
 .App {
   text-align: center;
-  border-width: 2px;
+  border-width: 5px;
   border-left-style: dashed;
   border-right-style: dashed;
   padding:0;
-  background-color: yellow;
+  color: #F9F3E6;
+  background-color: #E7C06C;
   /* background-color: #fdf1b8; */
-  border-color: white;
-    box-shadow:
-    /* inset 0 0 50px #fff,       */
-    /* inner white */
-    /* inset 20px 0 80px #f0f,    */
-    /* inner left magenta short */
-    /* inset -20px 0 80px #0ff,   */
-    /* inner right cyan short */
-    /* inset 20px 0 300px #f0f,   */
-    /* inner left magenta broad */
-    /* inset -20px 0 300px #0ff,  */
-    /* inner right cyan broad */
-    0 0 60px #0202025d,            /* outer white */
-    -20px 0 100px #1a160634,        /* outer left magenta */
-    10px 0 100px #ad931000;         /* outer right cyan */
-}
-.google-map-wrapper{
-  padding-top:7px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  box-shadow: 0 0 12px 3px #48abe0;
+  border-color: #B9913B;
 }
 
 .logo{
@@ -41,7 +21,7 @@
 .link-button{
   text-decoration:none;
   cursor: pointer;
-  color: black;
+  color: #F9F3E6;
 }
 .navbar-icons-zone{
   justify-content: space-around;
@@ -55,10 +35,20 @@
     height: 50vh;
   }
   .navbar-links-zone{
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: auto;
   }
   .navbar-icons-zone{
-    justify-content: space-around;
+    justify-content: center;
+  }
+  .navbar-icon{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .link-button{
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .google-map-column{
     padding-bottom: 10%;
@@ -66,15 +56,23 @@
 }
 
 .a-white{
-  color: black;
+  color: #F9F3E6;
   text-decoration-color: none;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F9F3E6;
 }
 
 h3{
   padding-top:3%;
   padding-bottom: 3%;
+}
+
+hr{
+  border-color: #B9913B !important;
+}
+
+#nav-zone{
+  background-color: #DCB768;
 }

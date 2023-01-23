@@ -8,7 +8,7 @@ const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar expand="lg" expanded={expanded}>
+    <Navbar expand="lg" expanded={expanded} id="nav-zone">
       <Container className="justify-content-center">
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
@@ -16,51 +16,48 @@ const Navigation = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Row className="navbar-links-zone">
-            <Col lg="6" md="6">
+            <Col lg="6" md="12">
               <Row className="justify-content-around">
-                <Col lg="4" md="10">
+                <Col lg="4" md="12" className="link-button">
                   <Link
                     onClick={() => setExpanded(false)}
                     to="home-zone"
                     spy={true}
                     smooth={true}
-                    className="link-button"
                   >
                     ACASĂ
                   </Link>
                 </Col>
-                <Col Col lg="4" md="10">
+                <Col Col lg="4" md="12" className="link-button">
                   <Link
                     onClick={() => setExpanded(false)}
                     to="work-zone"
                     spy={true}
                     smooth={true}
-                    className="link-button"
                   >
                     MOD DE LUCRU
                   </Link>
                 </Col>
-                <Col Col lg="4" md="10">
+                <Col Col lg="4" md="12" className="link-button">
                   <Link
                     onClick={() => setExpanded(false)}
                     to="contact-zone"
                     spy={true}
                     smooth={true}
-                    className="link-button"
                   >
                     CONTACT
                   </Link>
                 </Col>
               </Row>
             </Col>
-            <Col lg="3" md="6">
+            <Col lg="3">
               <Row className="navbar-icons-zone ">
-                <Col className="navbar-icon">
+                <Col md="12" lg="6" className="navbar-icon">
                   <a href="tel:0746323352">
                     <FaPhoneAlt size={"40"} />
                   </a>
                 </Col>
-                <Col className="navbar-icon">
+                <Col md="12" lg="6" className="navbar-icon">
                   <SocialIcon url="https://www.facebook.com/dragos.babulea" />
                 </Col>
               </Row>
