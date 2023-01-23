@@ -14,9 +14,9 @@ const Navigation = () => {
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(expanded ? false : "expanded")}
         />
-        <Navbar.Collapse id="basic-navbar-nav" className="navbar-buttons-zone">
+        <Navbar.Collapse id="basic-navbar-nav">
           <Row className="navbar-links-zone">
-            <Col lg="6" md="12">
+            <Col lg="6" md="6">
               <Row className="justify-content-around">
                 <Col lg="4" md="10">
                   <Link
@@ -53,14 +53,14 @@ const Navigation = () => {
                 </Col>
               </Row>
             </Col>
-            <Col lg="3" md="12">
-              <Row className="navbar-icons-zone">
-                <Col lg="3" md="3">
+            <Col lg="3" md="6">
+              <Row className="navbar-icons-zone ">
+                <Col className="navbar-icon">
                   <a href="tel:0746323352">
                     <FaPhoneAlt size={"40"} />
                   </a>
                 </Col>
-                <Col lg="3" md="3">
+                <Col className="navbar-icon">
                   <SocialIcon url="https://www.facebook.com/dragos.babulea" />
                 </Col>
               </Row>

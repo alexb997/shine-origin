@@ -34,17 +34,9 @@
   width: 90%;
   height: auto;
 }
-
-.navbar-buttons-zone{
-  justify-content: space-between;
-}
 .navbar-links-zone{
   justify-content: space-between;
   width: 100%;
-}
-.navbar-socials-zone{
-  justify-content: space-between;
-  width: 15%;
 }
 .link-button{
   text-decoration:none;
@@ -63,11 +55,10 @@
     height: 50vh;
   }
   .navbar-links-zone{
-    justify-content: center;
     width: auto;
   }
   .navbar-icons-zone{
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
