@@ -5,8 +5,7 @@ import WorkMethod from "./components/WorkMethod";
 import Logo from "./components/Logo";
 import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
-import "./fonts/Louis-George-Cafe-Light.ttf";
-import "./fonts/Louis-George-Cafe.ttf";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,11 +14,13 @@ function App() {
         <Logo />
         <Navigation />
         <hr />
-        <Home />
-        <hr />
-        <WorkMethod />
-        <hr />
-        <Contact />
+        <div className="dotted-background">
+          <Home />
+          <hr />
+          <WorkMethod />
+          <hr />
+          <Contact />
+        </div>
       </Col>
     </Container>
   );

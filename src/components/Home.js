@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <Container id="home-zone">
       <Row className="justify-content-center">
-        <Col lg="4" md="12">
+        <Col lg="6" md="12" className="p-3">
           <Card className="card-home">
             <Card.Body>
               <Card.Title>
@@ -22,7 +22,7 @@ const Home = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg="4" md="12">
+        <Col lg="6" md="12" className="p-3">
           <Card className="card-home">
             <Card.Body>
               <Card.Title>
@@ -30,7 +30,7 @@ const Home = () => {
               </Card.Title>
               <Card.Text>
                 Pentru ca suntem de gasca, spalam bine, puteti trimite copii sa
-                lucreze aici să învețe să spele și vă rugăm mult mult mult mult
+                lucreze aici sa învete sa spele si va rugam mult mult mult mult
                 mult mult mult mult mult mult mult mult mult mult mult mult mult
                 mult mult mult mult mult mult mult mult mult mult mult mult mult
                 mult mult mult mult mult mult mult mult mult!

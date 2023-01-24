@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const Contact = () => {
   return (
     <Container id="contact-zone">
-      <h3>Contactaține!</h3>
+      <h3>Contactatine!</h3>
       <Row>
         <Col>
           <Card border="0" bg="transparent">
@@ -20,7 +20,7 @@ const Contact = () => {
           <Card border="0" bg="transparent">
             <Card.Body>
               <Card.Title>Adresa:</Card.Title>
-              <Card.Text>Taramul de nicaieri, nr. 21</Card.Text>
+              <Card.Text>Strada Antreprenorului 13</Card.Text>
             </Card.Body>
           </Card>
           <Card border="0" bg="transparent">
@@ -28,12 +28,11 @@ const Contact = () => {
               <Card.Title>Program:</Card.Title>
               <Card.Text>
                 <Row className="justify-content-center">
-                  Luni - Vineri: 9:00 - 18:00
+                  Luni - Vineri: 9:00 - 17:00
                 </Row>
                 <Row className="justify-content-center">
-                  Sambata: 12:00 - 16:00
+                  Sambata - Duminica: Inchis
                 </Row>
-                <Row className="justify-content-center">Duminica: Inchis</Row>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -41,11 +40,10 @@ const Contact = () => {
         <Col lg="8" md="12" className="google-map-column">
           <iframe
             title="address-google-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3325395304414!2d-122.01116148467422!3d37.33463524513264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb59127ce078f%3A0x18e1c3ce7becf1b!2sApple%20Park!5e0!3m2!1sen!2sin!4v1637309850935!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.201210008126!2d27.71000211508464!3d47.13432392847661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2f84354b87b5f8e9%3A0xb358e0d42cff03cc!2sShine%20Origin%20-%20Spalatorie%20de%20perdele%20si%20draperii!5e0!3m2!1sro!2sro!4v1674528068684!5m2!1sro!2sro"
             width="100%"
             height="90%"
             style={{ border: "0" }}
-            allowfullscreen=""
             loading="lazy"
             className="google-map"
           ></iframe>

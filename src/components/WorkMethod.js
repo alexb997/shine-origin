@@ -10,16 +10,13 @@ const WorkMethod = () => {
         <Row className="justify-content-center">
           <Col md="8" lg="2">
             <Card border="0" bg="transparent">
-              <Card.Img
-                variant="top"
-                src="https://www.iconpacks.net/icons/1/free-phone-icon-14-thumb.png"
-              />
+              <Card.Img variant="top" src={require("../icons/pas1.png")} />
               <Card.Body>
                 <Card.Text>
                   1. Programati telefonic o intalnire:
-                  <a className="a-white" href="tel:0754865695">
+                  <a className="a-white" href="tel:0746323352">
                     {" "}
-                    0754865695{" "}
+                    0746323352{" "}
                   </a>
                 </Card.Text>
               </Card.Body>
@@ -27,10 +24,7 @@ const WorkMethod = () => {
           </Col>
           <Col md="8" lg="2">
             <Card border="0" bg="transparent">
-              <Card.Img
-                variant="top"
-                src="https://cdn-icons-png.flaticon.com/512/31/31520.png"
-              />
+              <Card.Img variant="top" src={require("../icons/pas2.png")} />
               <Card.Body>
                 <Card.Text>
                   2. Venim, demontam si preluam articolele dorite
@@ -40,10 +34,7 @@ const WorkMethod = () => {
           </Col>
           <Col md="8" lg="2">
             <Card border="0" bg="transparent">
-              <Card.Img
-                variant="top"
-                src="https://cdn-icons-png.flaticon.com/512/3238/3238630.png"
-              />
+              <Card.Img variant="top" src={require("../icons/pas3.png")} />
               <Card.Body>
                 <Card.Text>3. Spalam si uscam eco perdelele</Card.Text>
               </Card.Body>
@@ -51,10 +42,7 @@ const WorkMethod = () => {
           </Col>
           <Col md="8" lg="2">
             <Card border="0" bg="transparent">
-              <Card.Img
-                variant="top"
-                src="https://cdn-icons-png.flaticon.com/512/81/81840.png"
-              />
+              <Card.Img variant="top" src={require("../icons/pas4.png")} />
               <Card.Body>
                 <Card.Text>4. Calcam perdelele cu mare atentie</Card.Text>
               </Card.Body>
@@ -62,10 +50,7 @@ const WorkMethod = () => {
           </Col>
           <Col md="8" lg="2" className="justify-content-between">
             <Card border="0" bg="transparent">
-              <Card.Img
-                variant="top"
-                src="https://static.thenounproject.com/png/38110-200.png"
-              />
+              <Card.Img variant="top" src={require("../icons/pas5.png")} />
               <Card.Body>
                 <Card.Text>5. Livram si montam articolele dvs.</Card.Text>
               </Card.Body>

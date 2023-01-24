@@ -1,14 +1,17 @@
+
 @font-face {
-  font-family:'Louis';
-  src: local('Louis-George-Café'), url(./fonts/Louis-George-Cafe.ttf) format('truetype');
-  
-  font-family:'Louis-Light';
-  src: local('Louis-George-Café-Light'), url(./fonts/Louis-George-Cafe-Light.ttf) format('truetype');
+  font-family:'Robo-Medium';
+  src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Robo-Light';
+  src: local('Roboto-Light'), url(./fonts/Roboto-Light.ttf) format('truetype');
 }
 
 body {
   padding: 0;
-  background-color: #FFEBB2 !important;
+  background-color: #FCF9F9 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

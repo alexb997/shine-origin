@@ -1,14 +1,17 @@
 import { useState } from "react";
 import { Container, Col, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
-import { SocialIcon } from "react-social-icons";
-import { FaPhoneAlt } from "react-icons/fa";
 
 const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar expand="lg" expanded={expanded} id="nav-zone">
+    <Navbar
+      expand="lg"
+      expanded={expanded}
+      id="nav-zone"
+      style={{ display: "flex", flexDirection: "row" }}
+    >
       <Container className="justify-content-center">
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
@@ -25,7 +28,7 @@ const Navigation = () => {
                     spy={true}
                     smooth={true}
                   >
-                    ACASĂ
+                    ACASA
                   </Link>
                 </Col>
                 <Col Col lg="4" md="12" className="link-button">
@@ -54,11 +57,23 @@ const Navigation = () => {
               <Row className="navbar-icons-zone ">
                 <Col md="12" lg="6" className="navbar-icon">
                   <a href="tel:0746323352">
-                    <FaPhoneAlt size={"40"} />
+                    <img
+                      width="50px"
+                      height="50px"
+                      alt="phone-icon"
+                      src={require("../icons/phone.png")}
+                    />
                   </a>
                 </Col>
                 <Col md="12" lg="6" className="navbar-icon">
-                  <SocialIcon url="https://www.facebook.com/dragos.babulea" />
+                  <a href="https://www.facebook.com/dragos.babulea">
+                    <img
+                      width="50px"
+                      height="50px"
+                      alt="facebook-icon"
+                      src={require("../icons/facebook.png")}
+                    />
+                  </a>
                 </Col>
               </Row>
             </Col>

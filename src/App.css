@@ -1,25 +1,25 @@
 
-
 .App {
   text-align: center;
   border-width: 5px;
   border-left-style: dashed;
   border-right-style: dashed;
   padding:0;
-  color: #F9F3E6;
-  background-color: #E7C06C;
-  /* background-color: #fdf1b8; */
-  border-color: #B9913B;
-  font-family: 'Louis-Light' !important;
+  color: #02121c;
+  background-color: #F7F7F7;
+  border-color: #0a73b8;
+  font-family: 'Robo-Light' !important;
+  padding-bottom: 3%;
 }
 
-.logo{
-  width: 90%;
-  height: auto;
+.dotted-background{
+  background-image: radial-gradient(white 5px, transparent 0);
+  background-size: 45px 45px;
+  background-position: 100% 100%;
 }
 
 .card-home{
-  background-color: #B9913B !important;
+  background-color: rgba(240,249,255,0.5) !important;
   min-height: 100%;
 }
 
@@ -31,22 +31,23 @@
 .link-button{
   text-decoration:none;
   cursor: pointer;
-  color: #F9F3E6;
-  font-family: 'Louis-Light' !important;
+  color: #02121c;
+  font-family: 'Robo-Light' !important;
   padding-top:3%;
 }
 .link-button:hover{
-  color: #B9913B
+  text-decoration: underline;
+}
+
+
+.link-button:hover{
+  color: #02121c
 }
 
 .navbar-icons-zone{
   justify-content: space-around;
 }
-
 @media only screen and (max-width : 991px) {
-  #logo-zone{
-    height: 50vh;
-  }
   .logo{
     height: 50vh;
   }
@@ -69,28 +70,46 @@
   .google-map-column{
     padding-bottom: 10%;
   }
+  #nav-zone{
+    position: relative;
+    float: none;
+  }
+  
 }
+@media only screen and (max-width : 257px) {
+  #title-zone{
+    display: none;
+  }
+}
+
 
 .a-white{
-  color: #F9F3E6;
+  color: #02121c;
   text-decoration-color: none;
-  font-family: 'Louis-Light' !important;
-}
-
-.App-link {
-  color: #F9F3E6;
+  font-family: 'Robo-Light' !important;
 }
 
 h3{
   padding-top:3%;
   padding-bottom: 3%;
-  font-family: 'Louis' !important;
+  font-family: 'Robo-Medium' !important;
 }
 
 hr{
-  border-color: #B9913B !important;
+  border-color: #0a73b8 !important;
 }
 
 #nav-zone{
-  background-color: #DCB768;
+  background-color: #f0f9ff;
+}
+
+#footer-zone{
+  background-color: #0a73b8;
+  color: #F7F7F7;
+  font-family: 'Robo-Light' !important;
+}
+
+#home-zone{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
