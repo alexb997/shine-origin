@@ -27,6 +27,8 @@ const Navigation = () => {
                     to="home-zone"
                     spy={true}
                     smooth={true}
+                    isDynamic={true}
+                    ignoreCancelEvents={true}
                   >
                     ACASA
                   </Link>
@@ -37,6 +39,8 @@ const Navigation = () => {
                     to="work-zone"
                     spy={true}
                     smooth={true}
+                    isDynamic={true}
+                    ignoreCancelEvents={true}
                   >
                     MOD DE LUCRU
                   </Link>
@@ -47,6 +51,8 @@ const Navigation = () => {
                     to="contact-zone"
                     spy={true}
                     smooth={true}
+                    isDynamic={true}
+                    ignoreCancelEvents={true}
                   >
                     CONTACT
                   </Link>
