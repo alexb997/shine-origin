@@ -8,16 +8,25 @@ const Home = () => {
           <Card className="card-home">
             <Card.Body>
               <Card.Title>
-                <h3>Spalatorie de perdele si draperii</h3>
+                <h3>Despre noi</h3>
               </Card.Title>
               <Card.Text>
-                Te-ai saturat de perdelele murdare si pline de praf? Iti doresti
-                sa le poti spala cu un simplu apel telefonic? De acum acest
-                lucru este posibil! Stim cu totii cat de obositor este sa faci
-                curatenie. Ai foarte multe lucruri de facut si fiecare dintre
-                ele nesesita mult timp. Noi iti venim in ajutor! Prima
-                spalatorie ecologica de perdele si draperii din Craiova si zona
-                Olteniei care ofera servicii complete!
+                Shine Origin prestează servicii ecologice de spălătorie,
+                curățătorie, călcătorie în domeniul perdelelor, draperiilor și
+                fețelor de masă, în județul Iași, pentru persoanele fizice și
+                juridice. În sens larg, serviciile noastre includ demontarea și
+                preluarea articolelor, spălarea/curățarea, călcarea,
+                împachetarea, livrarea și montarea acestora.
+              </Card.Text>
+              <Card.Text>
+                Activitatea noastră se desfășoară într-un cadru spațios,
+                igienizat continuu, amenajat caracteristic, nedăunător mediului
+                și dotat cu cele mai moderne aparate și produse profesionale, ce
+                raspund exigențelor.
+              </Card.Text>
+              <Card.Text>
+                Evită aglomerația până la spălătorie și beneficiază de serviciul
+                nostru complet, unic în Iași, doar cu un simplu apel telefonic.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -29,12 +38,23 @@ const Home = () => {
                 <h3>De ce noi?</h3>
               </Card.Title>
               <Card.Text>
-                Pentru ca suntem de gasca, spalam bine, puteti trimite copii sa
-                lucreze aici sa învete sa spele si va rugam mult mult mult mult
-                mult mult mult mult mult mult mult mult mult mult mult mult mult
-                mult mult mult mult mult mult mult mult mult mult mult mult mult
-                mult mult mult mult mult mult mult mult mult!
+                Oferim pachetul complet de servicii, garantat calitativ.
               </Card.Text>
+              <Card.Text>
+                Folosim detergenți, balsamuri și finisări premium, exclusiv
+                ecologice, concepute pentru a atenua lărgirea sau strâmtorarea
+                produsului textil, pentru detensionarea și împrospătarea
+                țesăturii
+              </Card.Text>
+              <Card.Text>
+                Folosim aparate și produse profesionale speciale pentru perdele,
+                draperii și fețe de masă
+              </Card.Text>
+              <Card.Text>
+                După spălare și uscare se calcă, se împăturesc și se ambalează
+                cu grijă
+              </Card.Text>
+              <Card.Text>Avem un timp minim de execuție</Card.Text>
             </Card.Body>
           </Card>
         </Col>

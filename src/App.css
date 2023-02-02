@@ -47,6 +47,11 @@
 .navbar-icons-zone{
   justify-content: space-around;
 }
+
+.form-box{
+  border-left: #02121c 1px solid;
+}
+
 @media only screen and (max-width : 991px) {
   .logo{
     height: 50vh;
@@ -73,6 +78,11 @@
   #nav-zone{
     position: relative;
     float: none;
+  }
+  .form-box{
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   
 }
