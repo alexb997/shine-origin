@@ -1,9 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Col, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
+  const [offSet, setOffSet] = useState(window.innerWidth < 1200 ? -300 : 0);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => {
+        setOffSet(window.innerWidth < 1200 ? -300 : 0);
+      },
+      false
+    );
+  });
 
   return (
     <Navbar
@@ -29,6 +40,7 @@ const Navigation = () => {
                     smooth={true}
                     isDynamic={true}
                     ignoreCancelEvents={true}
+                    offset={offSet}
                   >
                     ACASA
                   </Link>
@@ -41,6 +53,7 @@ const Navigation = () => {
                     smooth={true}
                     isDynamic={true}
                     ignoreCancelEvents={true}
+                    offset={offSet}
                   >
                     MOD DE LUCRU
                   </Link>
@@ -53,6 +66,7 @@ const Navigation = () => {
                     smooth={true}
                     isDynamic={true}
                     ignoreCancelEvents={true}
+                    offset={offSet}
                   >
                     CONTACT
                   </Link>

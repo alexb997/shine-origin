@@ -59,24 +59,6 @@ const Home = () => {
           </Card>
         </Col>
       </Row>
-      <Row className="justify-content-center">
-        <Col lg="6" md="12" className="p-3">
-          <Card className="card-home">
-            <Card.Body>
-              <Card.Title>
-                <h3>De ce noi?</h3>
-              </Card.Title>
-              <Card.Text>
-                Pentru ca suntem de gasca, spalam bine, puteti trimite copii sa
-                lucreze aici sa învete sa spele si va rugam mult mult mult mult
-                mult mult mult mult mult mult mult mult mult mult mult mult mult
-                mult mult mult mult mult mult mult mult mult mult mult mult mult
-                mult mult mult mult mult mult mult mult mult!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
     </Container>
   );
 };

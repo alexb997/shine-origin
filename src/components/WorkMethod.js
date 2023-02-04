@@ -5,10 +5,20 @@ const WorkMethod = () => {
     <Container id="work-zone">
       <Col>
         <Row className="justify-content-center">
-          <h3>
-            Acesta este procesul nostru de lucru, începând de la primirea
-            comenzii, până la livrarea și montarea produselor acasă la tine.
-          </h3>
+          <Card border="0" bg="transparent">
+            <Card.Body>
+              <Card.Title>
+                <h3>Cum lucrăm?</h3>
+              </Card.Title>
+              <Card.Text>
+                <h4>
+                  Acesta este procesul nostru de lucru, începând de la primirea
+                  comenzii, până la livrarea și montarea produselor acasă la
+                  tine.
+                </h4>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </Row>
         <Row className="justify-content-center">
           <Col md="8" lg="2">

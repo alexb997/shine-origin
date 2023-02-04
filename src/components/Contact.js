@@ -3,13 +3,15 @@ import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 const Contact = () => {
   return (
     <Container id="contact-zone">
-      <h3>Contactatine!</h3>
+      <h3>
+        Contacta<b>ț</b>i-ne!
+      </h3>
       <Row className="p-3">
         <Col>
           <Card border="0" bg="transparent">
             <Card.Body>
-              <Card.Title>Persoana fizica:</Card.Title>
-              <Card.Text>Pentru comenzi si alte informatii</Card.Text>
+              <Card.Title>Persoană fizică:</Card.Title>
+              <Card.Text>Pentru comenzi și alte informații</Card.Text>
             </Card.Body>
           </Card>
           <Card border="0" bg="transparent">
@@ -20,14 +22,14 @@ const Contact = () => {
                   Luni - Vineri: 9:00 - 17:00
                 </Row>
                 <Row className="justify-content-center">
-                  Sambata - Duminica: Inchis
+                  Sambata - Duminica: Închis
                 </Row>
               </Card.Text>
             </Card.Body>
           </Card>
           <Card border="0" bg="transparent">
             <Card.Body>
-              <Card.Title>Adresa de e-mail:</Card.Title>
+              <Card.Title>Adresă de e-mail:</Card.Title>
               <Card.Text>
                 <a
                   className="a-white"
@@ -40,7 +42,7 @@ const Contact = () => {
           </Card>
           <Card border="0" bg="transparent">
             <Card.Body>
-              <Card.Title>Pagina Facebook:</Card.Title>
+              <Card.Title>Pagină Facebook:</Card.Title>
               <Card.Text>
                 <a className="a-white" href="https://www.facebook.com/">
                   www.facebook.com
@@ -52,10 +54,10 @@ const Contact = () => {
         <Col lg="6" md="12" className="form-box">
           <Card border="0" bg="transparent">
             <Card.Body>
-              <Card.Title>Persoana juridica:</Card.Title>
+              <Card.Title>Persoană juridica:</Card.Title>
               <Card.Text>
-                Pentru o oferta referitoare business-ului tau va rugam
-                contactati telefonic, sau completati formularul de mai jos:
+                Pentru o ofertă referitoare business-ului tău vă rugăm
+                contactați telefonic, sau completați formularul de mai jos:
               </Card.Text>
             </Card.Body>
           </Card>
@@ -72,7 +74,7 @@ const Contact = () => {
               <Form.Control type="text" placeholder="Introduceti CUI / CIF" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPhone">
-              <Form.Label>Numar de contact:</Form.Label>
+              <Form.Label>Număr de contact:</Form.Label>
               <Form.Control
                 type="phone"
                 placeholder="Introduceti nr. de telefon"
@@ -87,7 +89,7 @@ const Contact = () => {
               />
             </Form.Group>
             <Button variant="primary" type="submit">
-              Submit
+              Trimiteți
             </Button>
           </Form>
         </Col>

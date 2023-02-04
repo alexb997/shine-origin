@@ -5,7 +5,7 @@ const Title = () => {
     <Container id="title-zone">
       <Row className="justify-content-center">
         <Col lg="7" md="12">
-          <h3>- Spălătorie si curățatorie de perdele și draperii -</h3>
+          <h3>- Spălătorie si curățătorie de perdele și draperii -</h3>
         </Col>
       </Row>
     </Container>
