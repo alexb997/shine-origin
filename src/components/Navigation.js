@@ -37,7 +37,7 @@ const Navigation = () => {
                     onClick={() => setExpanded(false)}
                     to="home-zone"
                     spy={true}
-                    smooth={true}
+                    smooth="linear"
                     isDynamic={true}
                     ignoreCancelEvents={true}
                     offset={offSet}
@@ -50,7 +50,7 @@ const Navigation = () => {
                     onClick={() => setExpanded(false)}
                     to="work-zone"
                     spy={true}
-                    smooth={true}
+                    smooth="linear"
                     isDynamic={true}
                     ignoreCancelEvents={true}
                     offset={offSet}
@@ -63,7 +63,7 @@ const Navigation = () => {
                     onClick={() => setExpanded(false)}
                     to="contact-zone"
                     spy={true}
-                    smooth={true}
+                    smooth="linear"
                     isDynamic={true}
                     ignoreCancelEvents={true}
                     offset={offSet}

@@ -11,7 +11,10 @@ const Contact = () => {
           <Card border="0" bg="transparent">
             <Card.Body>
               <Card.Title>Persoană fizică:</Card.Title>
-              <Card.Text>Pentru comenzi și alte informații</Card.Text>
+              <Card.Text>
+                Pentru comenzi și alte informații, contactați numărul{" "}
+                <a href="tel:0758988722">0758-988.722</a>
+              </Card.Text>
             </Card.Body>
           </Card>
           <Card border="0" bg="transparent">
@@ -57,7 +60,8 @@ const Contact = () => {
               <Card.Title>Persoană juridica:</Card.Title>
               <Card.Text>
                 Pentru o ofertă referitoare business-ului tău vă rugăm
-                contactați telefonic, sau completați formularul de mai jos:
+                contactați numărul <a href="tel:0758988722">0758-988.722</a>,
+                sau completați formularul de mai jos:
               </Card.Text>
             </Card.Body>
           </Card>

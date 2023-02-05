@@ -5,7 +5,16 @@ const Footer = () => {
     <Container id="footer-zone">
       <Row className="justify-content-start p-2">
         <Col sm="12" md="4">
-          <Row className="justify-content-center p-3">Textul 1</Row>
+          <Row className="justify-content-center p-3">
+            <a
+              className="a-footer"
+              href="https://www.clickdimensions.com/links/TestPDFfile.pdf"
+              target="_blank"
+              title="Read PDF"
+            >
+              Clauze speciale
+            </a>
+          </Row>
           <Row className="justify-content-center p-3">Textul 2</Row>
           <Row className="justify-content-center p-3">Textul 3</Row>
         </Col>
