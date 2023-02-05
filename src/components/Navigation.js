@@ -5,12 +5,17 @@ import { Link } from "react-scroll";
 const Navigation = () => {
   const [expanded, setExpanded] = useState(false);
   const [offSet, setOffSet] = useState(window.innerWidth < 1200 ? -300 : 0);
+  const [scrollDuration, setScrollDuration] = useState(
+    window.innerWidth < 1200 ? 1500 : 1000
+  );
 
   useEffect(() => {
     window.addEventListener(
       "resize",
       () => {
         setOffSet(window.innerWidth < 1200 ? -300 : 0);
+
+        setScrollDuration(window.innerWidth < 1200 ? 1500 : 1000);
       },
       false
     );
@@ -39,6 +44,7 @@ const Navigation = () => {
                     spy={true}
                     smooth="linear"
                     isDynamic={true}
+                    duration={scrollDuration - 1000}
                     ignoreCancelEvents={true}
                     offset={offSet}
                   >
@@ -52,6 +58,7 @@ const Navigation = () => {
                     spy={true}
                     smooth="linear"
                     isDynamic={true}
+                    duration={scrollDuration - 500}
                     ignoreCancelEvents={true}
                     offset={offSet}
                   >
@@ -65,6 +72,7 @@ const Navigation = () => {
                     spy={true}
                     smooth="linear"
                     isDynamic={true}
+                    duration={scrollDuration + 750}
                     ignoreCancelEvents={true}
                     offset={offSet}
                   >
