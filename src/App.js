@@ -20,7 +20,7 @@ function App() {
       ) : (
         <div class="loader-wrapper">
           <div className="main-content">
-            <AppRouter />;
+            <AppRouter />
           </div>
         </div>
       )}
