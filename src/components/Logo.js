@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../logo.png";
+import logo from "./logo.png";
 import Title from "./Title";
 
 const Logo = () => {

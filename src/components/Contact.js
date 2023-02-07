@@ -36,9 +36,9 @@ const Contact = () => {
               <Card.Text>
                 <a
                   className="a-white"
-                  href="mailto:dragos_dragos33@yahoo.com?subject=Mail from our Website"
+                  href="mailto:shineorigin@yahoo.com?subject=Mail from our Website"
                 >
-                  dragos_dragos33@yahoo.com
+                  shineorigin@yahoo.com
                 </a>
               </Card.Text>
             </Card.Body>
@@ -47,8 +47,11 @@ const Contact = () => {
             <Card.Body>
               <Card.Title>Pagină Facebook:</Card.Title>
               <Card.Text>
-                <a className="a-white" href="https://www.facebook.com/">
-                  www.facebook.com
+                <a
+                  className="a-white"
+                  href="https://www.facebook.com/shineorigin"
+                >
+                  www.facebook.com/shineorigin
                 </a>
               </Card.Text>
             </Card.Body>
@@ -60,13 +63,13 @@ const Contact = () => {
               <Card.Title>Persoană juridica:</Card.Title>
               <Card.Text>
                 Pentru o ofertă referitoare business-ului tău vă rugăm
-                contactați numărul <a href="tel:0758988722">0758-988.722</a>,
+                contactați numărul <a href="tel:0746323352">0746-323.352</a>,
                 sau completați formularul de mai jos:
               </Card.Text>
             </Card.Body>
           </Card>
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicName">
               <Form.Label>Denumire societate</Form.Label>
               <Form.Control
                 type="text"
