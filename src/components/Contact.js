@@ -1,6 +1,53 @@
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import React from "react";
+
+const initialFormData = Object.freeze({
+  name: "",
+  CUI_CIF: "",
+  phone: "",
+  message: "",
+});
 
 const Contact = () => {
+  const [formData, updateFormData] = React.useState(initialFormData);
+
+  const checkKeyDown = (e) => {
+    if (e.code === "Enter") e.preventDefault();
+  };
+
+  const handleChange = (e) => {
+    e.preventDefault();
+    updateFormData({
+      ...formData,
+
+      [e.target.name]: e.target.value.trim(),
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(`Mesajul a fost trimis`);
+    const templateId = "template_4vwvmrr";
+    const serviceID = "service_sa4tjen";
+    sendFeedback(serviceID, templateId, {
+      from_name: formData.name,
+      phone: formData.phone,
+      message_html: formData.message,
+      CUI_CIF: formData.CUI_CIF,
+    });
+
+    console.log(formData);
+  };
+
+  const sendFeedback = (serviceID, templateId, variables) => {
+    window.emailjs
+      .send(serviceID, templateId, variables)
+      .then((res) => {
+        console.log("Email successfully sent!");
+      })
+      .catch((err) => console.error("There has been an Error.", err));
+  };
+
   return (
     <Container id="contact-zone">
       <h3>
@@ -72,30 +119,43 @@ const Contact = () => {
             <Form.Group className="mb-3" controlId="formBasicName">
               <Form.Label>Denumire societate</Form.Label>
               <Form.Control
-                type="text"
+                onChange={handleChange}
+                name="name"
+                type="name"
+                onKeyDown={(e) => checkKeyDown(e)}
                 placeholder="Introduceti numele companiei"
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCUI/CIF">
               <Form.Label>CUI / CIF:</Form.Label>
-              <Form.Control type="text" placeholder="Introduceti CUI / CIF" />
+              <Form.Control
+                onChange={handleChange}
+                name="CUI_CIF"
+                type="text"
+                onKeyDown={(e) => checkKeyDown(e)}
+                placeholder="Introduceti CUI / CIF"
+              />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPhone">
               <Form.Label>Număr de contact:</Form.Label>
               <Form.Control
-                type="phone"
+                onChange={handleChange}
+                name="phone"
+                onKeyDown={(e) => checkKeyDown(e)}
                 placeholder="Introduceti nr. de telefon"
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicMessage">
               <Form.Label>Mesaj:</Form.Label>
               <Form.Control
+                onChange={handleChange}
+                name="message"
                 as="textarea"
                 rows={3}
                 placeholder="Introduceti detalii"
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button onClick={handleSubmit} variant="primary" type="submit">
               Trimiteți
             </Button>
           </Form>
