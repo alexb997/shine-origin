@@ -8,7 +8,7 @@ const Footer = () => {
           <Row className="justify-content-center p-3">
             <a
               className="a-footer"
-              href="https://www.clickdimensions.com/links/TestPDFfile.pdf"
+              href="https://drive.google.com/file/d/1rgHk85naXZjXopZtoK1f3buHqQiZ7l28/view?usp=share_link"
               target="_blank"
               title="Read PDF"
             >
