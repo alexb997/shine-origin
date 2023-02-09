@@ -48,7 +48,7 @@ const Navigation = () => {
                     ignoreCancelEvents={true}
                     offset={offSet}
                   >
-                    ACASA
+                    ACASĂ
                   </Link>
                 </Col>
                 <Col Col lg="4" md="12" className="link-button">

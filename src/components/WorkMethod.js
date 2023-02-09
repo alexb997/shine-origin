@@ -26,7 +26,7 @@ const WorkMethod = () => {
               <Card.Img variant="top" src={require("../icons/pas1.png")} />
               <Card.Body>
                 <Card.Text>
-                  1. Programati telefonic o intalnire:
+                  1. Programați telefonic o intâlnire:
                   <a className="a-white" href="tel:0746323352">
                     {" "}
                     0746323352{" "}
@@ -40,7 +40,7 @@ const WorkMethod = () => {
               <Card.Img variant="top" src={require("../icons/pas2.png")} />
               <Card.Body>
                 <Card.Text>
-                  2. Venim, demontam si preluam articolele dorite
+                  2. Venim, demontăm și preluăm articolele dorite
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -49,7 +49,7 @@ const WorkMethod = () => {
             <Card border="0" bg="transparent">
               <Card.Img variant="top" src={require("../icons/pas3.png")} />
               <Card.Body>
-                <Card.Text>3. Spalam si uscam eco perdelele</Card.Text>
+                <Card.Text>3. Spălăm și uscăm eco perdelele</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -57,7 +57,7 @@ const WorkMethod = () => {
             <Card border="0" bg="transparent">
               <Card.Img variant="top" src={require("../icons/pas4.png")} />
               <Card.Body>
-                <Card.Text>4. Calcam perdelele cu mare atentie</Card.Text>
+                <Card.Text>4. Călcăm perdelele cu mare atenție</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -65,7 +65,7 @@ const WorkMethod = () => {
             <Card border="0" bg="transparent">
               <Card.Img variant="top" src={require("../icons/pas5.png")} />
               <Card.Body>
-                <Card.Text>5. Livram si montam articolele dvs.</Card.Text>
+                <Card.Text>5. Livrăm și montăm articolele dvs.</Card.Text>
               </Card.Body>
             </Card>
           </Col>

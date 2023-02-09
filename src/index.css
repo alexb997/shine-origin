@@ -1,12 +1,12 @@
 
 @font-face {
   font-family:'Robo-Medium';
-  src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+  src: local('Sansation-normal'), url(./fonts/Sansation_Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family:'Robo-Light';
-  src: local('Roboto-Light'), url(./fonts/Roboto-Light.ttf) format('truetype');
+  src: local('Sansation-light'), url(./fonts/Sansation_Light.ttf) format('truetype');
 }
 
 body {

@@ -24,22 +24,63 @@ const Contact = () => {
     });
   };
 
+  const checkInput = () => {
+    if (formData.name === "") {
+      alert(`Nu ați inserat numele companiei!`);
+      return false;
+    } else {
+      if (formData.CUI_CIF === "") {
+        alert(`Nu ați inserat CUI/CIF!`);
+        return false;
+      } else {
+        if (formData.phone === "") {
+          alert(`Nu ați inserat numar de contact!`);
+          return false;
+        } else {
+          if (formData.message === "") {
+            alert(`Nu ați specificat un mesaj!`);
+            return false;
+          }
+        }
+      }
+    }
+    return true;
+  };
+
+  const clearFields = () => {
+    var s = document.getElementById("formName");
+    s.value = "";
+    s = document.getElementById("formPhone");
+    s.value = "";
+    s = document.getElementById("formCUI/CIF");
+    s.value = "";
+    s = document.getElementById("formMessage");
+    s.value = "";
+    updateFormData(initialFormData);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Mesajul a fost trimis`);
-    const templateId = "template_4vwvmrr";
-    const serviceID = "service_sa4tjen";
-    sendFeedback(serviceID, templateId, {
-      from_name: formData.name,
-      phone: formData.phone,
-      message_html: formData.message,
-      CUI_CIF: formData.CUI_CIF,
-    });
+    if (checkInput()) {
+      const templateId = "template_4vwvmrr";
+      const serviceID = "service_sa4tjen";
+      // sendFeedback(serviceID, templateId, {
+      //   from_name: formData.name,
+      //   phone: formData.phone,
+      //   message_html: formData.message,
+      //   CUI_CIF: formData.CUI_CIF,
+      // });
+      clearFields();
 
-    console.log(formData);
+      console.log(formData);
+    } else {
+      clearFields();
+      console.log(formData);
+    }
   };
 
   const sendFeedback = (serviceID, templateId, variables) => {
+    alert(`Mesajul a fost trimis`);
     window.emailjs
       .send(serviceID, templateId, variables)
       .then((res) => {
@@ -115,42 +156,46 @@ const Contact = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicName">
+          <Form id="contactForm">
+            <Form.Group className="mb-3">
               <Form.Label>Denumire societate</Form.Label>
               <Form.Control
                 onChange={handleChange}
+                id="formName"
                 name="name"
                 type="name"
                 onKeyDown={(e) => checkKeyDown(e)}
                 placeholder="Introduceti numele companiei"
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCUI/CIF">
+            <Form.Group className="mb-3">
               <Form.Label>CUI / CIF:</Form.Label>
               <Form.Control
                 onChange={handleChange}
                 name="CUI_CIF"
+                id="formCUI/CIF"
                 type="text"
                 onKeyDown={(e) => checkKeyDown(e)}
                 placeholder="Introduceti CUI / CIF"
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPhone">
+            <Form.Group className="mb-3">
               <Form.Label>Număr de contact:</Form.Label>
               <Form.Control
                 onChange={handleChange}
                 name="phone"
+                id="formPhone"
                 onKeyDown={(e) => checkKeyDown(e)}
                 placeholder="Introduceti nr. de telefon"
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicMessage">
+            <Form.Group className="mb-3">
               <Form.Label>Mesaj:</Form.Label>
               <Form.Control
                 onChange={handleChange}
                 name="message"
                 as="textarea"
+                id="formMessage"
                 rows={3}
                 placeholder="Introduceti detalii"
               />
