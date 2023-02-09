@@ -8,7 +8,7 @@
   color: #02121c;
   background-color: #F7F7F7;
   border-color: #0a73b8;
-  font-family: 'Robo-Light' !important;
+  font-family: 'Sansation-light' !important;
   padding-bottom: 3%;
 }
 
@@ -32,7 +32,7 @@
   text-decoration:none;
   cursor: pointer;
   color: #02121c;
-  font-family: 'Robo-Light' !important;
+  font-family: 'Sansation-light' !important;
   padding-top:3%;
 }
 .link-button:hover{
@@ -96,7 +96,7 @@
 .a-white{
   color: #02121c;
   text-decoration: none;
-  font-family: 'Robo-Light' !important;
+  font-family: 'Sansation-light' !important;
 }
 .a-footer{
   color: white;
@@ -110,7 +110,7 @@
 h3{
   padding-top:3%;
   padding-bottom: 3%;
-  font-family: 'Robo-Medium' !important;
+  font-family: 'Sansation-normal' !important;
 }
 
 hr{
@@ -124,7 +124,7 @@ hr{
 #footer-zone{
   background-color: #0a73b8;
   color: #F7F7F7;
-  font-family: 'Robo-Light' !important;
+  font-family: 'Sansation-light' !important;
 }
 
 #home-zone{

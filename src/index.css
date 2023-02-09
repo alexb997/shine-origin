@@ -1,11 +1,11 @@
 
 @font-face {
-  font-family:'Robo-Medium';
+  font-family:'Sansation-normal';
   src: local('Sansation-normal'), url(./fonts/Sansation_Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family:'Robo-Light';
+  font-family:'Sansation-light';
   src: local('Sansation-light'), url(./fonts/Sansation_Light.ttf) format('truetype');
 }
 

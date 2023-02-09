@@ -91,9 +91,7 @@ const Contact = () => {
 
   return (
     <Container id="contact-zone">
-      <h3>
-        Contacta<b>ț</b>i-ne!
-      </h3>
+      <h3>Contactați-ne!</h3>
       <Row className="p-3">
         <Col>
           <Card border="0" bg="transparent">
