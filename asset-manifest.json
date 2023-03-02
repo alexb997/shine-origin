@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.28f1ced3.css",
-    "main.js": "/static/js/main.70cd44b2.js",
+    "main.css": "/static/css/main.033c4735.css",
+    "main.js": "/static/js/main.914f9af9.js",
     "static/js/787.2d39fc92.chunk.js": "/static/js/787.2d39fc92.chunk.js",
-    "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.03e629f6348896ffa23a.ttf",
-    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.d2d7f0c01bffaa5ec8f7.ttf",
+    "static/media/wash.jpg": "/static/media/wash.d9d47cb9ae41b945a255.jpg",
     "static/media/pas5.png": "/static/media/pas5.14478a51f1523ac60bcf.png",
     "static/media/pas2.png": "/static/media/pas2.fb8a54d69ddf06019583.png",
+    "static/media/Sansation_Light.ttf": "/static/media/Sansation_Light.4b0e0e7199c58c7cc1d3.ttf",
+    "static/media/Sansation_Regular.ttf": "/static/media/Sansation_Regular.9be04a011dc2beea9985.ttf",
     "static/media/pas1.png": "/static/media/pas1.c51ad289053957c009f5.png",
     "static/media/pas4.png": "/static/media/pas4.36657254463b511fc480.png",
-    "static/media/logo.png": "/static/media/logo.7170c1df48f77439c3dd.png",
     "static/media/pas3.png": "/static/media/pas3.a8f5ca777d16a174d61f.png",
     "static/media/facebook.png": "/static/media/facebook.f7454bd9a8538407e7e6.png",
+    "static/media/cut-logo2.png": "/static/media/cut-logo2.9eddb67ae9a772eb729f.png",
     "static/media/phone.png": "/static/media/phone.be4a3d6fcf47f2f52a4b.png",
     "index.html": "/index.html",
-    "main.28f1ced3.css.map": "/static/css/main.28f1ced3.css.map",
-    "main.70cd44b2.js.map": "/static/js/main.70cd44b2.js.map",
+    "main.033c4735.css.map": "/static/css/main.033c4735.css.map",
+    "main.914f9af9.js.map": "/static/js/main.914f9af9.js.map",
     "787.2d39fc92.chunk.js.map": "/static/js/787.2d39fc92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28f1ced3.css",
-    "static/js/main.70cd44b2.js"
+    "static/css/main.033c4735.css",
+    "static/js/main.914f9af9.js"
   ]
 }
