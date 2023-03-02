@@ -11,7 +11,8 @@
 
 body {
   padding: 0;
-  background-color: #FCF9F9 !important;
+  /* background-color: #FCF9F9 !important; */
+  background-color: #E2E2E2 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

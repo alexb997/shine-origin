@@ -1,63 +1,17 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <Container id="home-zone">
-      <Row className="justify-content-center">
-        <Col lg="6" md="12" className="p-3">
-          <Card className="card-home">
-            <Card.Body>
-              <Card.Title>
-                <h3>Despre noi</h3>
-              </Card.Title>
-              <Card.Text>
-                Shine Origin prestează servicii ecologice de spălătorie,
-                curățătorie, călcătorie în domeniul perdelelor, draperiilor și
-                fețelor de masă, în județul Iași, pentru persoanele fizice și
-                juridice. În sens larg, serviciile noastre includ demontarea și
-                preluarea articolelor, spălarea/curățarea, călcarea,
-                împachetarea, livrarea și montarea acestora.
-              </Card.Text>
-              <Card.Text>
-                Activitatea noastră se desfășoară într-un cadru spațios,
-                igienizat continuu, amenajat caracteristic, nedăunător mediului
-                și dotat cu cele mai moderne aparate și produse profesionale, ce
-                raspund exigențelor.
-              </Card.Text>
-              <Card.Text>
-                Evită aglomerația până la spălătorie și beneficiază de serviciul
-                nostru complet, unic în Iași, doar cu un simplu apel telefonic.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg="6" md="12" className="p-3">
-          <Card className="card-home">
-            <Card.Body>
-              <Card.Title>
-                <h3>De ce noi?</h3>
-              </Card.Title>
-              <Card.Text>
-                Oferim pachetul complet de servicii, garantat calitativ.
-              </Card.Text>
-              <Card.Text>
-                Folosim detergenți, balsamuri și finisări premium, exclusiv
-                ecologice, concepute pentru a atenua lărgirea sau strâmtorarea
-                produsului textil, pentru detensionarea și împrospătarea
-                țesăturii
-              </Card.Text>
-              <Card.Text>
-                Folosim aparate și produse profesionale speciale pentru perdele,
-                draperii și fețe de masă
-              </Card.Text>
-              <Card.Text>
-                După spălare și uscare se calcă, se împăturesc și se ambalează
-                cu grijă
-              </Card.Text>
-              <Card.Text>Avem un timp minim de execuție</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+    <Container id="home-zone" className="washing_background">
+      <Row className="justify-content-center ">
+        <Container id="title-zone">
+          <Row className="justify-content-center">
+            <Col lg="12" md="12" className="ribbon p-3">
+              <h2>SPĂLĂTORIE ȘI CURĂȚĂTORIE DE PERDELE ȘI DRAPERII IAȘI</h2>
+              <h2>Venim noi la tine - Beneficiază de serviciul complet</h2>
+            </Col>
+          </Row>
+        </Container>
       </Row>
     </Container>
   );

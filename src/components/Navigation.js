@@ -37,18 +37,31 @@ const Navigation = () => {
           <Row className="navbar-links-zone">
             <Col lg="6" md="12">
               <Row className="justify-content-around">
-                <Col lg="4" md="12" className="link-button">
+                <Col lg="3" md="12" className="link-button">
                   <Link
                     onClick={() => setExpanded(false)}
                     to="home-zone"
                     spy={true}
                     smooth="linear"
                     isDynamic={true}
-                    duration={scrollDuration - 1000}
                     ignoreCancelEvents={true}
                     offset={offSet}
                   >
                     ACASĂ
+                  </Link>
+                </Col>
+                <Col lg="3" md="12" className="link-button">
+                  <Link
+                    onClick={() => setExpanded(false)}
+                    to="aboutUs-zone"
+                    spy={true}
+                    smooth="linear"
+                    isDynamic={true}
+                    duration={scrollDuration - 500}
+                    ignoreCancelEvents={true}
+                    offset={offSet}
+                  >
+                    DESPRE NOI
                   </Link>
                 </Col>
                 <Col Col lg="4" md="12" className="link-button">
@@ -65,7 +78,7 @@ const Navigation = () => {
                     MOD DE LUCRU
                   </Link>
                 </Col>
-                <Col Col lg="4" md="12" className="link-button">
+                <Col Col lg="2" md="12" className="link-button">
                   <Link
                     onClick={() => setExpanded(false)}
                     to="contact-zone"
@@ -84,7 +97,7 @@ const Navigation = () => {
             <Col lg="3">
               <Row className="navbar-icons-zone ">
                 <Col md="12" lg="6" className="navbar-icon">
-                  <a href="tel:0746323352">
+                  <a href="tel:0758988722">
                     <img
                       width="50px"
                       height="50px"
@@ -94,7 +107,7 @@ const Navigation = () => {
                   </a>
                 </Col>
                 <Col md="12" lg="6" className="navbar-icon">
-                  <a href="https://www.facebook.com/dragos.babulea">
+                  <a href="https://www.facebook.com/shineorigin">
                     <img
                       width="50px"
                       height="50px"

@@ -91,14 +91,14 @@ const Contact = () => {
 
   return (
     <Container id="contact-zone">
-      <h3>Contactați-ne!</h3>
+      <h3>Contact:</h3>
       <Row className="p-3">
         <Col>
           <Card border="0" bg="transparent">
             <Card.Body>
               <Card.Title>Persoană fizică:</Card.Title>
               <Card.Text>
-                Pentru comenzi și alte informații, contactați numărul{" "}
+                Pentru comenzi și alte informații, contactează numărul:&nbsp;
                 <a href="tel:0758988722">0758-988.722</a>
               </Card.Text>
             </Card.Body>
@@ -111,8 +111,9 @@ const Contact = () => {
                   Luni - Vineri: 9:00 - 17:00
                 </Row>
                 <Row className="justify-content-center">
-                  Sambata - Duminica: Închis
+                  Sambătă: 9:00 - 15:00
                 </Row>
+                <Row className="justify-content-center">Duminică: Închis</Row>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -146,11 +147,11 @@ const Contact = () => {
         <Col lg="6" md="12" className="form-box">
           <Card border="0" bg="transparent">
             <Card.Body>
-              <Card.Title>Persoană juridica:</Card.Title>
+              <Card.Title>Persoană juridică:</Card.Title>
               <Card.Text>
-                Pentru o ofertă referitoare business-ului tău vă rugăm
-                contactați numărul <a href="tel:0746323352">0746-323.352</a>,
-                sau completați formularul de mai jos:
+                Pentru o ofertă referitoare business-ului tău, te rugăm
+                contactează numărul: <a href="tel:0746323352">0746-323.352</a>,
+                sau completează formularul de mai jos:
               </Card.Text>
             </Card.Body>
           </Card>

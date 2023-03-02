@@ -5,6 +5,7 @@ import Home from "../components/Home";
 import WorkMethod from "../components/WorkMethod";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,8 @@ const HomePage = () => {
           <hr />
           <div className="dotted-background">
             <Home />
+            <hr />
+            <AboutUs />
             <hr />
             <WorkMethod />
             <hr />
